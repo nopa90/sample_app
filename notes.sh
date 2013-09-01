@@ -10,3 +10,6 @@ git commit -m "Finish static pages"
 
 git checkout master
 git merge static-pages
+
+#push changes to remote git
+git push
