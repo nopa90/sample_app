@@ -13,3 +13,6 @@ git merge static-pages
 
 #push changes to remote git
 git push
+
+git push heroku
+heroku open
