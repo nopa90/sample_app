@@ -1,8 +1,9 @@
-2#running rspec
+#running rspec
 #testing framework
 bundle exec rspec spec/requests/static_pages_spec.rb
 bundle exec rspec spec/models/user_spec.rb
 bundle exec rspec spec/requests/user_pages_spec.rb
+bundle exec rspec spec/
 #commit changes
 git add .
 git commit -m "Finish static pages"
