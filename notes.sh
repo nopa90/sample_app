@@ -1,4 +1,4 @@
-#running rspec
+2#running rspec
 #testing framework
 bundle exec rspec spec/requests/static_pages_spec.rb
 bundle exec rspec spec/models/user_spec.rb
@@ -21,4 +21,7 @@ heroku open
 #reset database
 bundle exec rake db:reset
 bundle exec rake test:prepare
+
+#heroku stuff
+heroku run rake db:migrate
 
